@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: 'Datacenter-Dashboards'
+    orgId: 1
+    folder: 'Datacenter Monitoring'
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/dashboards

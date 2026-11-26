@@ -1,0 +1,52 @@
+name: datacenter-telemetry-etl
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: dc_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dc_datacenter
+      POSTGRES_USER: dc_user
+      POSTGRES_PASSWORD: dc_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dc_user -d dc_datacenter"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: dc_grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/etc/grafana/dashboards:ro
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  nodered:
+    image: nodered/node-red:latest
+    container_name: dc_nodered
+    restart: unless-stopped
+    ports:
+      - "1880:1880"
+    volumes:
+      - ../nodered:/data
+
+volumes:
+  postgres_data:
+  grafana_data:

@@ -1,0 +1,206 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "title": "Servidores Monitorizados",
+      "type": "stat",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT count(DISTINCT server_id) as total FROM hardware_telemetry_history;",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 6,
+        "y": 0
+      },
+      "id": 2,
+      "title": "Total de Leituras Recebidas",
+      "type": "stat",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT count(*) as total FROM hardware_telemetry_history;",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 12,
+        "y": 0
+      },
+      "id": 3,
+      "title": "Temperatura Média das CPUs (°C)",
+      "type": "stat",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT round(avg(cpu_temp_celsius), 1) as avg_temp FROM hardware_telemetry_history;",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 18,
+        "y": 0
+      },
+      "id": 4,
+      "title": "Potência Média (Watts)",
+      "type": "stat",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT round(avg(power_watts)) as avg_power FROM hardware_telemetry_history;",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 4
+      },
+      "id": 5,
+      "title": "Temperatura Média por Servidor (°C)",
+      "type": "barchart",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT server_id, round(avg(cpu_temp_celsius), 1) as temp_media FROM hardware_telemetry_history GROUP BY server_id ORDER BY server_id;",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 4
+      },
+      "id": 6,
+      "title": "Rotação Média de Ventoinhas (RPM)",
+      "type": "barchart",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT server_id, round(avg(fan_rpm)) as fan_media FROM hardware_telemetry_history GROUP BY server_id ORDER BY server_id;",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 7,
+        "w": 24,
+        "x": 0,
+        "y": 12
+      },
+      "id": 7,
+      "title": "Discos em Alerta Crítico (S.M.A.R.T. Degradado) Cruzados com CMDB",
+      "type": "table",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT DISTINCT serial_number, model, coalesce(fornecedor, 'Inventário Datacenter') as fornecedor, coalesce(rack_localizacao, 'RACK-MULTI') as rack_localizacao, reallocated_sector_ct, pending_sector_ct, disk_health_status FROM hardware_critical_alerts WHERE disk_health_status = 'CRITICAL' OR reallocated_sector_ct > 0 ORDER BY reallocated_sector_ct DESC;",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 7,
+        "w": 24,
+        "x": 0,
+        "y": 19
+      },
+      "id": 8,
+      "title": "Histórico Consolidado de Telemetria Térmica (IPs Anonimizados)",
+      "type": "table",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "PCAABEE1851A06510"
+      },
+      "targets": [
+        {
+          "format": "table",
+          "rawSql": "SELECT timestamp, server_id, cpu_temp_celsius, fan_rpm, power_watts, internal_ip FROM hardware_telemetry_history ORDER BY timestamp DESC LIMIT 25;",
+          "refId": "A"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 39,
+  "style": "dark",
+  "tags": ["Datacenter", "Hardware", "Observability"],
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "title": "Deteção de Anomalias e Falhas Críticas de Hardware",
+  "uid": "datacenter-health-overview"
+}

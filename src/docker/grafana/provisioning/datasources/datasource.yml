@@ -1,0 +1,18 @@
+apiVersion: 1
+
+datasources:
+  - name: PostgreSQL-Datacenter
+    type: postgres
+    uid: PCAABEE1851A06510
+    access: proxy
+    url: postgres:5432
+    user: dc_user
+    database: dc_datacenter
+    isDefault: true
+    jsonData:
+      database: dc_datacenter
+      sslmode: "disable"
+      postgresVersion: 1600
+    secureJsonData:
+      password: "dc_password"
+    editable: true
