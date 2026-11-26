@@ -1,0 +1,58 @@
+[
+    {
+        "id": "flow-datacenter-sensors",
+        "type": "tab",
+        "label": "Telemetria Sensores Datacenter",
+        "disabled": false,
+        "info": "API REST e simulador de sensores térmicos IPMI/iLO"
+    },
+    {
+        "id": "http-in-sensores",
+        "type": "http in",
+        "z": "flow-datacenter-sensors",
+        "name": "GET /api/sensores/temperatura",
+        "url": "/api/sensores/temperatura",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "fn-generate-telemetry"
+            ]
+        ]
+    },
+    {
+        "id": "fn-generate-telemetry",
+        "type": "function",
+        "z": "flow-datacenter-sensors",
+        "name": "Simular Sensores IPMI",
+        "func": "const servers = ['SRV-001', 'SRV-002', 'SRV-003', 'SRV-004', 'SRV-005'];\nconst data = servers.map((srv, idx) => {\n    const isThermalFail = (srv === 'SRV-003');\n    return {\n        server_id: srv,\n        timestamp: new Date().toISOString().replace('T', ' ').substring(0, 19),\n        cpu_temp_celsius: isThermalFail ? (88 + Math.floor(Math.random() * 5)) : (45 + Math.floor(Math.random() * 25)),\n        fan_rpm: isThermalFail ? (5200 + Math.floor(Math.random() * 800)) : (2800 + Math.floor(Math.random() * 1200)),\n        vcore_voltage: 1.20,\n        power_watts: isThermalFail ? 560 : 240,\n        internal_ip: '192.168.1.' + (20 + idx)\n    };\n});\nmsg.payload = data;\nmsg.headers = { 'Content-Type': 'application/json' };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 140,
+        "wires": [
+            [
+                "http-out-sensores"
+            ]
+        ]
+    },
+    {
+        "id": "http-out-sensores",
+        "type": "http response",
+        "z": "flow-datacenter-sensors",
+        "name": "Resposta JSON (200)",
+        "statusCode": "200",
+        "headers": {},
+        "x": 750,
+        "y": 140,
+        "wires": []
+    }
+]
