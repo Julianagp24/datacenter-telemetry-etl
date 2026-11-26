@@ -1,0 +1,13 @@
+# Node-RED dependencies and runtime/backup files
+src/nodered/node_modules/
+src/nodered/*.backup
+src/nodered/.config.*.json
+src/nodered/lib/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
