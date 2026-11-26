@@ -12,8 +12,8 @@
 [![Node-RED](https://img.shields.io/badge/Node--RED-REST%20API-2B2B2B?style=flat&logo=nodered&logoColor=white&labelColor=2B2B2B&color=8F0000)](https://nodered.org/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2B2B2B?style=flat&logo=docker&logoColor=2496ED&labelColor=2B2B2B&color=1D63ED)](https://www.docker.com/)
 <br/>
-[![Last Commit](https://img.shields.io/github/last-commit/Julianagp24/datacenter-telemetry-etl?style=flat&labelColor=2B2B2B&color=4CAF50)](https://github.com/Julianagp24/datacenter-telemetry-etl)
-[![License](https://img.shields.io/github/license/Julianagp24/datacenter-telemetry-etl?style=flat&label=license&labelColor=2B2B2B&color=1976D2)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Julianagp24/datacenter-telemetry-etl?style=flat&labelColor=2B2B2B&color=4CAF50&cacheSeconds=3600)](https://github.com/Julianagp24/datacenter-telemetry-etl)
+[![License](https://img.shields.io/github/license/Julianagp24/datacenter-telemetry-etl?style=flat&label=license&labelColor=2B2B2B&color=1976D2&cacheSeconds=3600)](LICENSE)
 
 </div>
 
