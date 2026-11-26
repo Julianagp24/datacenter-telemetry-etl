@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datacenter_inventario empresa="Datacenter Cloud" gerado_em="2026-10-13T23:30:00">
+  <servidor id="SRV-001">
+    <serial_number>FHMEO1D9HF9</serial_number>
+    <mac_address>31:98:9D:F6:C5:FF</mac_address>
+    <rack_localizacao>RACK-C01-U01</rack_localizacao>
+    <data_compra>2022-06-11</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.116</ip_gestao>
+  </servidor>
+  <servidor id="SRV-002">
+    <serial_number>5GEBJRTJM0</serial_number>
+    <mac_address>4E:C5:11:E3:68:30</mac_address>
+    <rack_localizacao>RACK-C03-U37</rack_localizacao>
+    <data_compra>2025-12-22</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Cisco Systems</fornecedor>
+    <ip_gestao>192.168.1.82</ip_gestao>
+  </servidor>
+  <servidor id="SRV-003">
+    <serial_number>Z72G6R425QE6</serial_number>
+    <mac_address>F3:D3:69:E1:F5:E8</mac_address>
+    <rack_localizacao>RACK-C02-U17</rack_localizacao>
+    <data_compra>2021-03-07</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.90</ip_gestao>
+  </servidor>
+  <servidor id="SRV-004">
+    <serial_number>C99FVAKEQ</serial_number>
+    <mac_address>C5:8E:B9:6E:35:11</mac_address>
+    <rack_localizacao>RACK-B02-U33</rack_localizacao>
+    <data_compra>2022-12-06</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.155</ip_gestao>
+  </servidor>
+  <servidor id="SRV-005">
+    <serial_number>J3J3TRLKH</serial_number>
+    <mac_address>BB:76:6F:A0:77:81</mac_address>
+    <rack_localizacao>RACK-B02-U25</rack_localizacao>
+    <data_compra>2021-05-11</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Cisco Systems</fornecedor>
+    <ip_gestao>192.168.1.180</ip_gestao>
+  </servidor>
+  <servidor id="SRV-006">
+    <serial_number>7MYR2KLU6KG</serial_number>
+    <mac_address>9D:46:55:E8:63:06</mac_address>
+    <rack_localizacao>RACK-B01-U37</rack_localizacao>
+    <data_compra>2021-02-09</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.153</ip_gestao>
+  </servidor>
+  <servidor id="SRV-007">
+    <serial_number>WRMM9E2UQL7</serial_number>
+    <mac_address>BA:5B:8E:5D:0D:A9</mac_address>
+    <rack_localizacao>RACK-A02-U29</rack_localizacao>
+    <data_compra>2023-11-04</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Lenovo Enterprise</fornecedor>
+    <ip_gestao>192.168.1.25</ip_gestao>
+  </servidor>
+  <servidor id="SRV-008">
+    <serial_number>NFX37KKXOHR</serial_number>
+    <mac_address>95:F3:12:49:AE:01</mac_address>
+    <rack_localizacao>RACK-B02-U01</rack_localizacao>
+    <data_compra>2023-10-06</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Lenovo Enterprise</fornecedor>
+    <ip_gestao>192.168.1.127</ip_gestao>
+  </servidor>
+  <servidor id="SRV-009">
+    <serial_number>SEJ1N5CU</serial_number>
+    <mac_address>08:CC:93:EE:FD:1C</mac_address>
+    <rack_localizacao>RACK-A01-U37</rack_localizacao>
+    <data_compra>2021-08-28</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Lenovo Enterprise</fornecedor>
+    <ip_gestao>192.168.1.93</ip_gestao>
+  </servidor>
+  <servidor id="SRV-010">
+    <serial_number>DKDC77KKYD</serial_number>
+    <mac_address>F6:BB:27:8C:42:6D</mac_address>
+    <rack_localizacao>RACK-A02-U05</rack_localizacao>
+    <data_compra>2021-03-01</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Cisco Systems</fornecedor>
+    <ip_gestao>192.168.1.56</ip_gestao>
+  </servidor>
+  <servidor id="SRV-011">
+    <serial_number>M4RM8E9BE</serial_number>
+    <mac_address>B2:0B:2E:18:E0:95</mac_address>
+    <rack_localizacao>RACK-C02-U13</rack_localizacao>
+    <data_compra>2023-12-03</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.232</ip_gestao>
+  </servidor>
+  <servidor id="SRV-012">
+    <serial_number>KH94TJB0YOSN</serial_number>
+    <mac_address>2E:DE:8A:9C:28:A4</mac_address>
+    <rack_localizacao>RACK-B02-U01</rack_localizacao>
+    <data_compra>2021-06-11</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.68</ip_gestao>
+  </servidor>
+  <servidor id="SRV-013">
+    <serial_number>TQ2XBROK4H</serial_number>
+    <mac_address>7C:FF:F4:C4:17:E7</mac_address>
+    <rack_localizacao>RACK-B02-U37</rack_localizacao>
+    <data_compra>2023-10-24</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Lenovo Enterprise</fornecedor>
+    <ip_gestao>192.168.1.116</ip_gestao>
+  </servidor>
+  <servidor id="SRV-014">
+    <serial_number>H3JKSFWDRS</serial_number>
+    <mac_address>60:3D:7B:FA:76:65</mac_address>
+    <rack_localizacao>RACK-A03-U13</rack_localizacao>
+    <data_compra>2025-11-04</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>HPE</fornecedor>
+    <ip_gestao>192.168.1.177</ip_gestao>
+  </servidor>
+  <servidor id="SRV-015">
+    <serial_number>1GUDOEQJ8</serial_number>
+    <mac_address>C5:EC:D1:65:DD:33</mac_address>
+    <rack_localizacao>RACK-A03-U41</rack_localizacao>
+    <data_compra>2023-02-13</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>HPE</fornecedor>
+    <ip_gestao>192.168.1.228</ip_gestao>
+  </servidor>
+  <servidor id="SRV-016">
+    <serial_number>M7DM1PN2</serial_number>
+    <mac_address>09:6B:96:98:B7:FA</mac_address>
+    <rack_localizacao>RACK-C01-U21</rack_localizacao>
+    <data_compra>2022-06-02</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>HPE</fornecedor>
+    <ip_gestao>192.168.1.137</ip_gestao>
+  </servidor>
+  <servidor id="SRV-017">
+    <serial_number>2PA4N0949R0</serial_number>
+    <mac_address>D9:4A:EF:8A:DB:C3</mac_address>
+    <rack_localizacao>RACK-C02-U17</rack_localizacao>
+    <data_compra>2024-11-26</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.93</ip_gestao>
+  </servidor>
+  <servidor id="SRV-018">
+    <serial_number>PO0UX0OX3</serial_number>
+    <mac_address>E7:6E:FC:26:58:AB</mac_address>
+    <rack_localizacao>RACK-A03-U05</rack_localizacao>
+    <data_compra>2025-03-23</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Cisco Systems</fornecedor>
+    <ip_gestao>192.168.1.163</ip_gestao>
+  </servidor>
+  <servidor id="SRV-019">
+    <serial_number>DDB0HVVXMZV</serial_number>
+    <mac_address>ED:D4:AF:48:DD:BE</mac_address>
+    <rack_localizacao>RACK-B02-U17</rack_localizacao>
+    <data_compra>2021-08-18</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Cisco Systems</fornecedor>
+    <ip_gestao>192.168.1.119</ip_gestao>
+  </servidor>
+  <servidor id="SRV-020">
+    <serial_number>V5XIIODAJW</serial_number>
+    <mac_address>63:5E:DC:DE:02:D7</mac_address>
+    <rack_localizacao>RACK-A03-U25</rack_localizacao>
+    <data_compra>2022-02-25</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Dell Technologies</fornecedor>
+    <ip_gestao>192.168.1.18</ip_gestao>
+  </servidor>
+  <servidor id="SRV-021">
+    <serial_number>IOPTX7PF</serial_number>
+    <mac_address>BD:F0:A2:48:00:D4</mac_address>
+    <rack_localizacao>RACK-A01-U33</rack_localizacao>
+    <data_compra>2023-06-25</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.116</ip_gestao>
+  </servidor>
+  <servidor id="SRV-022">
+    <serial_number>P6OXQD7D6M</serial_number>
+    <mac_address>7C:22:1D:A9:E6:9A</mac_address>
+    <rack_localizacao>RACK-C02-U25</rack_localizacao>
+    <data_compra>2025-04-10</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Supermicro</fornecedor>
+    <ip_gestao>192.168.1.238</ip_gestao>
+  </servidor>
+  <servidor id="SRV-023">
+    <serial_number>2PELB64V08</serial_number>
+    <mac_address>F3:1E:CA:19:04:D6</mac_address>
+    <rack_localizacao>RACK-B01-U05</rack_localizacao>
+    <data_compra>2021-07-26</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Dell Technologies</fornecedor>
+    <ip_gestao>192.168.1.174</ip_gestao>
+  </servidor>
+  <servidor id="SRV-024">
+    <serial_number>AXYK3APOKP8</serial_number>
+    <mac_address>D6:C3:90:FA:17:53</mac_address>
+    <rack_localizacao>RACK-A02-U13</rack_localizacao>
+    <data_compra>2022-08-15</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Cisco Systems</fornecedor>
+    <ip_gestao>192.168.1.30</ip_gestao>
+  </servidor>
+  <servidor id="SRV-025">
+    <serial_number>UA5ON9PJVJ4</serial_number>
+    <mac_address>A2:39:79:58:CD:14</mac_address>
+    <rack_localizacao>RACK-C02-U09</rack_localizacao>
+    <data_compra>2022-08-26</data_compra>
+    <garantia_anos>5</garantia_anos>
+    <fornecedor>Dell Technologies</fornecedor>
+    <ip_gestao>192.168.1.135</ip_gestao>
+  </servidor>
+  <servidor id="SRV-998">
+    <serial_number>INVALID_SERIAL_$$</serial_number>
+    <mac_address>00-INVALID-MAC-ZZ</mac_address>
+    <rack_localizacao>RACK_UNKNOWN_99</rack_localizacao>
+    <data_compra>2020-01-01</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>Desconhecido</fornecedor>
+    <ip_gestao>192.168.1.99</ip_gestao>
+  </servidor>
+  <servidor id="SRV-999">
+    <serial_number>SRV999SERIAL</serial_number>
+    <mac_address>AA:BB:CC:DD:EE:FF</mac_address>
+    <rack_localizacao>SALA2-ARMARIO-1</rack_localizacao>
+    <data_compra>2022-06-15</data_compra>
+    <garantia_anos>3</garantia_anos>
+    <fornecedor>HPE</fornecedor>
+    <ip_gestao>192.168.1.100</ip_gestao>
+  </servidor>
+</datacenter_inventario>

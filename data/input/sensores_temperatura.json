@@ -1,0 +1,1154 @@
+[
+  {
+    "server_id": "SRV-001",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 68,
+    "fan_rpm": 3869,
+    "vcore_voltage": 1.235,
+    "power_watts": 199,
+    "internal_ip": "192.168.1.146"
+  },
+  {
+    "server_id": "SRV-001",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 61,
+    "fan_rpm": 3817,
+    "vcore_voltage": 1.192,
+    "power_watts": 278,
+    "internal_ip": "192.168.1.45"
+  },
+  {
+    "server_id": "SRV-001",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 65,
+    "fan_rpm": 4136,
+    "vcore_voltage": 1.178,
+    "power_watts": 343,
+    "internal_ip": "192.168.1.92"
+  },
+  {
+    "server_id": "SRV-001",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 68,
+    "fan_rpm": 2688,
+    "vcore_voltage": 1.192,
+    "power_watts": 261,
+    "internal_ip": "192.168.1.141"
+  },
+  {
+    "server_id": "SRV-001",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 67,
+    "fan_rpm": 3688,
+    "vcore_voltage": 1.224,
+    "power_watts": 235,
+    "internal_ip": "192.168.1.38"
+  },
+  {
+    "server_id": "SRV-002",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 3021,
+    "vcore_voltage": 1.247,
+    "power_watts": 185,
+    "internal_ip": "192.168.1.169"
+  },
+  {
+    "server_id": "SRV-002",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 53,
+    "fan_rpm": 2800,
+    "vcore_voltage": 1.228,
+    "power_watts": 290,
+    "internal_ip": "192.168.1.81"
+  },
+  {
+    "server_id": "SRV-002",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 49,
+    "fan_rpm": 3566,
+    "vcore_voltage": 1.228,
+    "power_watts": 286,
+    "internal_ip": "192.168.1.187"
+  },
+  {
+    "server_id": "SRV-002",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 46,
+    "fan_rpm": 2409,
+    "vcore_voltage": 1.227,
+    "power_watts": 321,
+    "internal_ip": "192.168.1.183"
+  },
+  {
+    "server_id": "SRV-002",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 62,
+    "fan_rpm": 3339,
+    "vcore_voltage": 1.18,
+    "power_watts": 211,
+    "internal_ip": "192.168.1.183"
+  },
+  {
+    "server_id": "SRV-003",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 90,
+    "fan_rpm": 6117,
+    "vcore_voltage": 1.222,
+    "power_watts": 605,
+    "internal_ip": "192.168.1.180"
+  },
+  {
+    "server_id": "SRV-003",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 91,
+    "fan_rpm": 6227,
+    "vcore_voltage": 1.188,
+    "power_watts": 548,
+    "internal_ip": "192.168.1.182"
+  },
+  {
+    "server_id": "SRV-003",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 90,
+    "fan_rpm": 6572,
+    "vcore_voltage": 1.154,
+    "power_watts": 585,
+    "internal_ip": "192.168.1.53"
+  },
+  {
+    "server_id": "SRV-003",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 93,
+    "fan_rpm": 5491,
+    "vcore_voltage": 1.175,
+    "power_watts": 512,
+    "internal_ip": "192.168.1.129"
+  },
+  {
+    "server_id": "SRV-003",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 88,
+    "fan_rpm": 5794,
+    "vcore_voltage": 1.211,
+    "power_watts": 524,
+    "internal_ip": "192.168.1.141"
+  },
+  {
+    "server_id": "SRV-004",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 3000,
+    "vcore_voltage": 1.22,
+    "power_watts": 265,
+    "internal_ip": "192.168.1.118"
+  },
+  {
+    "server_id": "SRV-004",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 48,
+    "fan_rpm": 3447,
+    "vcore_voltage": 1.194,
+    "power_watts": 235,
+    "internal_ip": "192.168.1.35"
+  },
+  {
+    "server_id": "SRV-004",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 72,
+    "fan_rpm": 2564,
+    "vcore_voltage": 1.198,
+    "power_watts": 248,
+    "internal_ip": "192.168.1.62"
+  },
+  {
+    "server_id": "SRV-004",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 67,
+    "fan_rpm": 3759,
+    "vcore_voltage": 1.151,
+    "power_watts": 310,
+    "internal_ip": "192.168.1.49"
+  },
+  {
+    "server_id": "SRV-004",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 42,
+    "fan_rpm": 3564,
+    "vcore_voltage": 1.242,
+    "power_watts": 207,
+    "internal_ip": "192.168.1.152"
+  },
+  {
+    "server_id": "SRV-005",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 2594,
+    "vcore_voltage": 1.243,
+    "power_watts": 259,
+    "internal_ip": "192.168.1.130"
+  },
+  {
+    "server_id": "SRV-005",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 65,
+    "fan_rpm": 3376,
+    "vcore_voltage": 1.187,
+    "power_watts": 203,
+    "internal_ip": "192.168.1.42"
+  },
+  {
+    "server_id": "SRV-005",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 65,
+    "fan_rpm": 4111,
+    "vcore_voltage": 1.15,
+    "power_watts": 299,
+    "internal_ip": "192.168.1.159"
+  },
+  {
+    "server_id": "SRV-005",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 72,
+    "fan_rpm": 3684,
+    "vcore_voltage": 1.173,
+    "power_watts": 260,
+    "internal_ip": "192.168.1.128"
+  },
+  {
+    "server_id": "SRV-005",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 57,
+    "fan_rpm": 3908,
+    "vcore_voltage": 1.238,
+    "power_watts": 181,
+    "internal_ip": "192.168.1.60"
+  },
+  {
+    "server_id": "SRV-006",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 68,
+    "fan_rpm": 3493,
+    "vcore_voltage": 1.155,
+    "power_watts": 283,
+    "internal_ip": "192.168.1.52"
+  },
+  {
+    "server_id": "SRV-006",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 3262,
+    "vcore_voltage": 1.247,
+    "power_watts": 184,
+    "internal_ip": "192.168.1.53"
+  },
+  {
+    "server_id": "SRV-006",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 59,
+    "fan_rpm": 3754,
+    "vcore_voltage": 1.154,
+    "power_watts": 220,
+    "internal_ip": "192.168.1.59"
+  },
+  {
+    "server_id": "SRV-006",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 69,
+    "fan_rpm": 4075,
+    "vcore_voltage": 1.198,
+    "power_watts": 194,
+    "internal_ip": "192.168.1.38"
+  },
+  {
+    "server_id": "SRV-006",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 61,
+    "fan_rpm": 3317,
+    "vcore_voltage": 1.203,
+    "power_watts": 267,
+    "internal_ip": "192.168.1.55"
+  },
+  {
+    "server_id": "SRV-007",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 90,
+    "fan_rpm": 6365,
+    "vcore_voltage": 1.164,
+    "power_watts": 499,
+    "internal_ip": "192.168.1.144"
+  },
+  {
+    "server_id": "SRV-007",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 91,
+    "fan_rpm": 6324,
+    "vcore_voltage": 1.228,
+    "power_watts": 592,
+    "internal_ip": "192.168.1.55"
+  },
+  {
+    "server_id": "SRV-007",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 88,
+    "fan_rpm": 6424,
+    "vcore_voltage": 1.154,
+    "power_watts": 567,
+    "internal_ip": "192.168.1.93"
+  },
+  {
+    "server_id": "SRV-007",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 91,
+    "fan_rpm": 5757,
+    "vcore_voltage": 1.171,
+    "power_watts": 631,
+    "internal_ip": "192.168.1.169"
+  },
+  {
+    "server_id": "SRV-007",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 96,
+    "fan_rpm": 5795,
+    "vcore_voltage": 1.202,
+    "power_watts": 540,
+    "internal_ip": "192.168.1.124"
+  },
+  {
+    "server_id": "SRV-008",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 59,
+    "fan_rpm": 2738,
+    "vcore_voltage": 1.176,
+    "power_watts": 190,
+    "internal_ip": "192.168.1.96"
+  },
+  {
+    "server_id": "SRV-008",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 70,
+    "fan_rpm": 2514,
+    "vcore_voltage": 1.208,
+    "power_watts": 342,
+    "internal_ip": "192.168.1.152"
+  },
+  {
+    "server_id": "SRV-008",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 60,
+    "fan_rpm": 2745,
+    "vcore_voltage": 1.246,
+    "power_watts": 332,
+    "internal_ip": "192.168.1.87"
+  },
+  {
+    "server_id": "SRV-008",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 52,
+    "fan_rpm": 3885,
+    "vcore_voltage": 1.222,
+    "power_watts": 238,
+    "internal_ip": "192.168.1.130"
+  },
+  {
+    "server_id": "SRV-008",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 46,
+    "fan_rpm": 3936,
+    "vcore_voltage": 1.168,
+    "power_watts": 186,
+    "internal_ip": "192.168.1.111"
+  },
+  {
+    "server_id": "SRV-009",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 60,
+    "fan_rpm": 3043,
+    "vcore_voltage": 1.177,
+    "power_watts": 217,
+    "internal_ip": "192.168.1.59"
+  },
+  {
+    "server_id": "SRV-009",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 3874,
+    "vcore_voltage": 1.186,
+    "power_watts": 295,
+    "internal_ip": "192.168.1.172"
+  },
+  {
+    "server_id": "SRV-009",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 66,
+    "fan_rpm": 2986,
+    "vcore_voltage": 1.172,
+    "power_watts": 253,
+    "internal_ip": "192.168.1.77"
+  },
+  {
+    "server_id": "SRV-009",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 66,
+    "fan_rpm": 3512,
+    "vcore_voltage": 1.168,
+    "power_watts": 188,
+    "internal_ip": "192.168.1.119"
+  },
+  {
+    "server_id": "SRV-009",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 3532,
+    "vcore_voltage": 1.246,
+    "power_watts": 328,
+    "internal_ip": "192.168.1.185"
+  },
+  {
+    "server_id": "SRV-010",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 69,
+    "fan_rpm": 4049,
+    "vcore_voltage": 1.224,
+    "power_watts": 240,
+    "internal_ip": "192.168.1.171"
+  },
+  {
+    "server_id": "SRV-010",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 2442,
+    "vcore_voltage": 1.239,
+    "power_watts": 248,
+    "internal_ip": "192.168.1.118"
+  },
+  {
+    "server_id": "SRV-010",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 50,
+    "fan_rpm": 4022,
+    "vcore_voltage": 1.17,
+    "power_watts": 263,
+    "internal_ip": "192.168.1.22"
+  },
+  {
+    "server_id": "SRV-010",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 68,
+    "fan_rpm": 2779,
+    "vcore_voltage": 1.181,
+    "power_watts": 307,
+    "internal_ip": "192.168.1.135"
+  },
+  {
+    "server_id": "SRV-010",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 64,
+    "fan_rpm": 3027,
+    "vcore_voltage": 1.157,
+    "power_watts": 265,
+    "internal_ip": "192.168.1.81"
+  },
+  {
+    "server_id": "SRV-011",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 72,
+    "fan_rpm": 2468,
+    "vcore_voltage": 1.162,
+    "power_watts": 252,
+    "internal_ip": "192.168.1.62"
+  },
+  {
+    "server_id": "SRV-011",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 63,
+    "fan_rpm": 3940,
+    "vcore_voltage": 1.156,
+    "power_watts": 310,
+    "internal_ip": "192.168.1.77"
+  },
+  {
+    "server_id": "SRV-011",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 71,
+    "fan_rpm": 2923,
+    "vcore_voltage": 1.238,
+    "power_watts": 245,
+    "internal_ip": "192.168.1.97"
+  },
+  {
+    "server_id": "SRV-011",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 65,
+    "fan_rpm": 3771,
+    "vcore_voltage": 1.218,
+    "power_watts": 349,
+    "internal_ip": "192.168.1.31"
+  },
+  {
+    "server_id": "SRV-011",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 50,
+    "fan_rpm": 3448,
+    "vcore_voltage": 1.214,
+    "power_watts": 295,
+    "internal_ip": "192.168.1.169"
+  },
+  {
+    "server_id": "SRV-012",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 90,
+    "fan_rpm": 6291,
+    "vcore_voltage": 1.21,
+    "power_watts": 608,
+    "internal_ip": "192.168.1.133"
+  },
+  {
+    "server_id": "SRV-012",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 94,
+    "fan_rpm": 5855,
+    "vcore_voltage": 1.2,
+    "power_watts": 597,
+    "internal_ip": "192.168.1.104"
+  },
+  {
+    "server_id": "SRV-012",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 95,
+    "fan_rpm": 5498,
+    "vcore_voltage": 1.184,
+    "power_watts": 586,
+    "internal_ip": "192.168.1.121"
+  },
+  {
+    "server_id": "SRV-012",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 93,
+    "fan_rpm": 6144,
+    "vcore_voltage": 1.158,
+    "power_watts": 636,
+    "internal_ip": "192.168.1.165"
+  },
+  {
+    "server_id": "SRV-012",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 93,
+    "fan_rpm": 6570,
+    "vcore_voltage": 1.244,
+    "power_watts": 615,
+    "internal_ip": "192.168.1.118"
+  },
+  {
+    "server_id": "SRV-013",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 49,
+    "fan_rpm": 2515,
+    "vcore_voltage": 1.225,
+    "power_watts": 308,
+    "internal_ip": "192.168.1.169"
+  },
+  {
+    "server_id": "SRV-013",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 72,
+    "fan_rpm": 2915,
+    "vcore_voltage": 1.212,
+    "power_watts": 271,
+    "internal_ip": "192.168.1.34"
+  },
+  {
+    "server_id": "SRV-013",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 66,
+    "fan_rpm": 2741,
+    "vcore_voltage": 1.222,
+    "power_watts": 322,
+    "internal_ip": "192.168.1.56"
+  },
+  {
+    "server_id": "SRV-013",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 59,
+    "fan_rpm": 2721,
+    "vcore_voltage": 1.191,
+    "power_watts": 278,
+    "internal_ip": "192.168.1.178"
+  },
+  {
+    "server_id": "SRV-013",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 54,
+    "fan_rpm": 4109,
+    "vcore_voltage": 1.245,
+    "power_watts": 239,
+    "internal_ip": "192.168.1.189"
+  },
+  {
+    "server_id": "SRV-014",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 60,
+    "fan_rpm": 2859,
+    "vcore_voltage": 1.22,
+    "power_watts": 189,
+    "internal_ip": "192.168.1.156"
+  },
+  {
+    "server_id": "SRV-014",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 58,
+    "fan_rpm": 3088,
+    "vcore_voltage": 1.197,
+    "power_watts": 324,
+    "internal_ip": "192.168.1.128"
+  },
+  {
+    "server_id": "SRV-014",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 56,
+    "fan_rpm": 3220,
+    "vcore_voltage": 1.241,
+    "power_watts": 247,
+    "internal_ip": "192.168.1.155"
+  },
+  {
+    "server_id": "SRV-014",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 59,
+    "fan_rpm": 2644,
+    "vcore_voltage": 1.229,
+    "power_watts": 225,
+    "internal_ip": "192.168.1.23"
+  },
+  {
+    "server_id": "SRV-014",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 63,
+    "fan_rpm": 3681,
+    "vcore_voltage": 1.156,
+    "power_watts": 266,
+    "internal_ip": "192.168.1.52"
+  },
+  {
+    "server_id": "SRV-015",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 93,
+    "fan_rpm": 6556,
+    "vcore_voltage": 1.243,
+    "power_watts": 571,
+    "internal_ip": "192.168.1.75"
+  },
+  {
+    "server_id": "SRV-015",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 88,
+    "fan_rpm": 5940,
+    "vcore_voltage": 1.237,
+    "power_watts": 540,
+    "internal_ip": "192.168.1.134"
+  },
+  {
+    "server_id": "SRV-015",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 93,
+    "fan_rpm": 6320,
+    "vcore_voltage": 1.223,
+    "power_watts": 613,
+    "internal_ip": "192.168.1.157"
+  },
+  {
+    "server_id": "SRV-015",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 88,
+    "fan_rpm": 6414,
+    "vcore_voltage": 1.206,
+    "power_watts": 618,
+    "internal_ip": "192.168.1.160"
+  },
+  {
+    "server_id": "SRV-015",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 94,
+    "fan_rpm": 6560,
+    "vcore_voltage": 1.189,
+    "power_watts": 558,
+    "internal_ip": "192.168.1.106"
+  },
+  {
+    "server_id": "SRV-016",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 68,
+    "fan_rpm": 4080,
+    "vcore_voltage": 1.239,
+    "power_watts": 246,
+    "internal_ip": "192.168.1.65"
+  },
+  {
+    "server_id": "SRV-016",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 63,
+    "fan_rpm": 2414,
+    "vcore_voltage": 1.173,
+    "power_watts": 292,
+    "internal_ip": "192.168.1.161"
+  },
+  {
+    "server_id": "SRV-016",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 63,
+    "fan_rpm": 2535,
+    "vcore_voltage": 1.238,
+    "power_watts": 336,
+    "internal_ip": "192.168.1.195"
+  },
+  {
+    "server_id": "SRV-016",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 57,
+    "fan_rpm": 2766,
+    "vcore_voltage": 1.235,
+    "power_watts": 280,
+    "internal_ip": "192.168.1.185"
+  },
+  {
+    "server_id": "SRV-016",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 48,
+    "fan_rpm": 4144,
+    "vcore_voltage": 1.161,
+    "power_watts": 287,
+    "internal_ip": "192.168.1.36"
+  },
+  {
+    "server_id": "SRV-017",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 63,
+    "fan_rpm": 3072,
+    "vcore_voltage": 1.179,
+    "power_watts": 328,
+    "internal_ip": "192.168.1.76"
+  },
+  {
+    "server_id": "SRV-017",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 52,
+    "fan_rpm": 3876,
+    "vcore_voltage": 1.248,
+    "power_watts": 313,
+    "internal_ip": "192.168.1.22"
+  },
+  {
+    "server_id": "SRV-017",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 60,
+    "fan_rpm": 2848,
+    "vcore_voltage": 1.222,
+    "power_watts": 201,
+    "internal_ip": "192.168.1.133"
+  },
+  {
+    "server_id": "SRV-017",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 58,
+    "fan_rpm": 2973,
+    "vcore_voltage": 1.169,
+    "power_watts": 232,
+    "internal_ip": "192.168.1.152"
+  },
+  {
+    "server_id": "SRV-017",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 60,
+    "fan_rpm": 3858,
+    "vcore_voltage": 1.154,
+    "power_watts": 217,
+    "internal_ip": "192.168.1.135"
+  },
+  {
+    "server_id": "SRV-018",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 3642,
+    "vcore_voltage": 1.184,
+    "power_watts": 193,
+    "internal_ip": "192.168.1.125"
+  },
+  {
+    "server_id": "SRV-018",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 64,
+    "fan_rpm": 4130,
+    "vcore_voltage": 1.174,
+    "power_watts": 226,
+    "internal_ip": "192.168.1.26"
+  },
+  {
+    "server_id": "SRV-018",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 58,
+    "fan_rpm": 2907,
+    "vcore_voltage": 1.168,
+    "power_watts": 344,
+    "internal_ip": "192.168.1.176"
+  },
+  {
+    "server_id": "SRV-018",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 46,
+    "fan_rpm": 3368,
+    "vcore_voltage": 1.215,
+    "power_watts": 208,
+    "internal_ip": "192.168.1.138"
+  },
+  {
+    "server_id": "SRV-018",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 3877,
+    "vcore_voltage": 1.191,
+    "power_watts": 261,
+    "internal_ip": "192.168.1.171"
+  },
+  {
+    "server_id": "SRV-019",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 71,
+    "fan_rpm": 2428,
+    "vcore_voltage": 1.176,
+    "power_watts": 261,
+    "internal_ip": "192.168.1.75"
+  },
+  {
+    "server_id": "SRV-019",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 43,
+    "fan_rpm": 3815,
+    "vcore_voltage": 1.176,
+    "power_watts": 330,
+    "internal_ip": "192.168.1.39"
+  },
+  {
+    "server_id": "SRV-019",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 50,
+    "fan_rpm": 3821,
+    "vcore_voltage": 1.179,
+    "power_watts": 199,
+    "internal_ip": "192.168.1.195"
+  },
+  {
+    "server_id": "SRV-019",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 69,
+    "fan_rpm": 3144,
+    "vcore_voltage": 1.239,
+    "power_watts": 194,
+    "internal_ip": "192.168.1.160"
+  },
+  {
+    "server_id": "SRV-019",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 59,
+    "fan_rpm": 2934,
+    "vcore_voltage": 1.247,
+    "power_watts": 226,
+    "internal_ip": "192.168.1.151"
+  },
+  {
+    "server_id": "SRV-020",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 44,
+    "fan_rpm": 3697,
+    "vcore_voltage": 1.172,
+    "power_watts": 227,
+    "internal_ip": "192.168.1.22"
+  },
+  {
+    "server_id": "SRV-020",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 60,
+    "fan_rpm": 3263,
+    "vcore_voltage": 1.242,
+    "power_watts": 210,
+    "internal_ip": "192.168.1.58"
+  },
+  {
+    "server_id": "SRV-020",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 2809,
+    "vcore_voltage": 1.162,
+    "power_watts": 309,
+    "internal_ip": "192.168.1.23"
+  },
+  {
+    "server_id": "SRV-020",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 47,
+    "fan_rpm": 4101,
+    "vcore_voltage": 1.159,
+    "power_watts": 344,
+    "internal_ip": "192.168.1.172"
+  },
+  {
+    "server_id": "SRV-020",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 3325,
+    "vcore_voltage": 1.215,
+    "power_watts": 277,
+    "internal_ip": "192.168.1.178"
+  },
+  {
+    "server_id": "SRV-021",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 3215,
+    "vcore_voltage": 1.226,
+    "power_watts": 348,
+    "internal_ip": "192.168.1.114"
+  },
+  {
+    "server_id": "SRV-021",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 43,
+    "fan_rpm": 2784,
+    "vcore_voltage": 1.169,
+    "power_watts": 334,
+    "internal_ip": "192.168.1.74"
+  },
+  {
+    "server_id": "SRV-021",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 69,
+    "fan_rpm": 3932,
+    "vcore_voltage": 1.184,
+    "power_watts": 243,
+    "internal_ip": "192.168.1.31"
+  },
+  {
+    "server_id": "SRV-021",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 47,
+    "fan_rpm": 3906,
+    "vcore_voltage": 1.231,
+    "power_watts": 281,
+    "internal_ip": "192.168.1.31"
+  },
+  {
+    "server_id": "SRV-021",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 47,
+    "fan_rpm": 2472,
+    "vcore_voltage": 1.203,
+    "power_watts": 217,
+    "internal_ip": "192.168.1.173"
+  },
+  {
+    "server_id": "SRV-022",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 90,
+    "fan_rpm": 6215,
+    "vcore_voltage": 1.165,
+    "power_watts": 509,
+    "internal_ip": "192.168.1.138"
+  },
+  {
+    "server_id": "SRV-022",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 93,
+    "fan_rpm": 6271,
+    "vcore_voltage": 1.208,
+    "power_watts": 543,
+    "internal_ip": "192.168.1.161"
+  },
+  {
+    "server_id": "SRV-022",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 88,
+    "fan_rpm": 6579,
+    "vcore_voltage": 1.213,
+    "power_watts": 510,
+    "internal_ip": "192.168.1.125"
+  },
+  {
+    "server_id": "SRV-022",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 93,
+    "fan_rpm": 5797,
+    "vcore_voltage": 1.208,
+    "power_watts": 598,
+    "internal_ip": "192.168.1.92"
+  },
+  {
+    "server_id": "SRV-022",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 89,
+    "fan_rpm": 5553,
+    "vcore_voltage": 1.246,
+    "power_watts": 606,
+    "internal_ip": "192.168.1.41"
+  },
+  {
+    "server_id": "SRV-023",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 64,
+    "fan_rpm": 4178,
+    "vcore_voltage": 1.158,
+    "power_watts": 205,
+    "internal_ip": "192.168.1.42"
+  },
+  {
+    "server_id": "SRV-023",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 58,
+    "fan_rpm": 3168,
+    "vcore_voltage": 1.172,
+    "power_watts": 277,
+    "internal_ip": "192.168.1.32"
+  },
+  {
+    "server_id": "SRV-023",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 72,
+    "fan_rpm": 3698,
+    "vcore_voltage": 1.246,
+    "power_watts": 285,
+    "internal_ip": "192.168.1.119"
+  },
+  {
+    "server_id": "SRV-023",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 60,
+    "fan_rpm": 3519,
+    "vcore_voltage": 1.181,
+    "power_watts": 334,
+    "internal_ip": "192.168.1.108"
+  },
+  {
+    "server_id": "SRV-023",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 66,
+    "fan_rpm": 3392,
+    "vcore_voltage": 1.246,
+    "power_watts": 333,
+    "internal_ip": "192.168.1.173"
+  },
+  {
+    "server_id": "SRV-024",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 52,
+    "fan_rpm": 3514,
+    "vcore_voltage": 1.24,
+    "power_watts": 197,
+    "internal_ip": "192.168.1.198"
+  },
+  {
+    "server_id": "SRV-024",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 69,
+    "fan_rpm": 2850,
+    "vcore_voltage": 1.203,
+    "power_watts": 197,
+    "internal_ip": "192.168.1.101"
+  },
+  {
+    "server_id": "SRV-024",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 3862,
+    "vcore_voltage": 1.221,
+    "power_watts": 333,
+    "internal_ip": "192.168.1.155"
+  },
+  {
+    "server_id": "SRV-024",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 62,
+    "fan_rpm": 2717,
+    "vcore_voltage": 1.196,
+    "power_watts": 287,
+    "internal_ip": "192.168.1.76"
+  },
+  {
+    "server_id": "SRV-024",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 51,
+    "fan_rpm": 4132,
+    "vcore_voltage": 1.195,
+    "power_watts": 319,
+    "internal_ip": "192.168.1.147"
+  },
+  {
+    "server_id": "SRV-025",
+    "timestamp": "2026-10-18 12:00:00",
+    "cpu_temp_celsius": 54,
+    "fan_rpm": 2895,
+    "vcore_voltage": 1.167,
+    "power_watts": 291,
+    "internal_ip": "192.168.1.130"
+  },
+  {
+    "server_id": "SRV-025",
+    "timestamp": "2026-10-18 11:30:00",
+    "cpu_temp_celsius": 46,
+    "fan_rpm": 3185,
+    "vcore_voltage": 1.191,
+    "power_watts": 305,
+    "internal_ip": "192.168.1.81"
+  },
+  {
+    "server_id": "SRV-025",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 3231,
+    "vcore_voltage": 1.217,
+    "power_watts": 275,
+    "internal_ip": "192.168.1.149"
+  },
+  {
+    "server_id": "SRV-025",
+    "timestamp": "2026-10-18 10:30:00",
+    "cpu_temp_celsius": 71,
+    "fan_rpm": 3483,
+    "vcore_voltage": 1.189,
+    "power_watts": 190,
+    "internal_ip": "192.168.1.188"
+  },
+  {
+    "server_id": "SRV-025",
+    "timestamp": "2026-10-18 10:00:00",
+    "cpu_temp_celsius": 69,
+    "fan_rpm": 2519,
+    "vcore_voltage": 1.159,
+    "power_watts": 292,
+    "internal_ip": "192.168.1.29"
+  },
+  {
+    "server_id": "SRV-002",
+    "timestamp": "2026-10-18 11:00:00",
+    "cpu_temp_celsius": -127,
+    "fan_rpm": 3000,
+    "vcore_voltage": 1.2,
+    "power_watts": 220,
+    "internal_ip": "192.168.1.45"
+  },
+  {
+    "server_id": "SRV-008",
+    "timestamp": "2026-10-18 11:05:00",
+    "cpu_temp_celsius": 135,
+    "fan_rpm": 2800,
+    "vcore_voltage": 1.21,
+    "power_watts": 240,
+    "internal_ip": "192.168.1.88"
+  },
+  {
+    "server_id": "SRV-BADFORMAT",
+    "timestamp": "2026-10-18 11:10:00",
+    "cpu_temp_celsius": 55,
+    "fan_rpm": 3200,
+    "vcore_voltage": 1.18,
+    "power_watts": 210,
+    "internal_ip": "192.168.1.99"
+  }
+]

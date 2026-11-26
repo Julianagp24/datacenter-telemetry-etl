@@ -1,0 +1,9 @@
+{
+  "server_id" : "SRV-021",
+  "timestamp" : "2026-10-18 12:00:00",
+  "cpu_temp_celsius" : 51,
+  "fan_rpm" : 3215,
+  "vcore_voltage" : 1.226,
+  "power_watts" : 348,
+  "internal_ip" : "192.168.1.***"
+}
